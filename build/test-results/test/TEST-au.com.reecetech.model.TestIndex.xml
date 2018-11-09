@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="au.com.reecetech.model.TestIndex" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-11-09T11:00:41" hostname="Nolan" time="0.308">
+  <properties/>
+  <testcase name="testHashCodeAndEqualsForIndex1" classname="au.com.reecetech.model.TestIndex" time="0.306"/>
+  <testcase name="testValidFirstLetterIndex" classname="au.com.reecetech.model.TestIndex" time="0.001"/>
+  <testcase name="testHashCodeAndEqualsForIndex" classname="au.com.reecetech.model.TestIndex" time="0.0"/>
+  <testcase name="testInValidFirstLetterIndex" classname="au.com.reecetech.model.TestIndex" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

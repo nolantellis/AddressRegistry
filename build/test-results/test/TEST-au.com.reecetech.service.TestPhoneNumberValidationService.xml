@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="au.com.reecetech.service.TestPhoneNumberValidationService" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-11-09T11:00:42" hostname="Nolan" time="0.001">
+  <properties/>
+  <testcase name="testPhoneService[0]" classname="au.com.reecetech.service.TestPhoneNumberValidationService" time="0.0"/>
+  <testcase name="testPhoneService[1]" classname="au.com.reecetech.service.TestPhoneNumberValidationService" time="0.0"/>
+  <testcase name="testPhoneService[2]" classname="au.com.reecetech.service.TestPhoneNumberValidationService" time="0.0"/>
+  <testcase name="testPhoneService[3]" classname="au.com.reecetech.service.TestPhoneNumberValidationService" time="0.0"/>
+  <testcase name="testPhoneService[4]" classname="au.com.reecetech.service.TestPhoneNumberValidationService" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

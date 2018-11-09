@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="au.com.reecetech.model.TestAddressBook" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-11-09T11:00:41" hostname="Nolan" time="0.013">
+  <properties/>
+  <testcase name="testGetEmptyContact" classname="au.com.reecetech.model.TestAddressBook" time="0.011"/>
+  <testcase name="testAddContactToAddressBook" classname="au.com.reecetech.model.TestAddressBook" time="0.0"/>
+  <testcase name="testRemoveContactByName" classname="au.com.reecetech.model.TestAddressBook" time="0.0"/>
+  <testcase name="testGetAllContact" classname="au.com.reecetech.model.TestAddressBook" time="0.001"/>
+  <testcase name="testAddDifferentContactWithSameName" classname="au.com.reecetech.model.TestAddressBook" time="0.0"/>
+  <testcase name="testAddDuplicateContactToAddressBook" classname="au.com.reecetech.model.TestAddressBook" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

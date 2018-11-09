@@ -1,0 +1,42 @@
+apply plugin: 'java'
+sourceSets {
+    integrationTest {
+        java {
+            srcDir 'src/integrationtest/java'
+            compileClasspath += main.output
+            runtimeClasspath += main.output
+        }
+    }
+}
+configurations {
+    integrationTestCompile.extendsFrom testCompile
+    integrationTestRuntime.extendsFrom testRuntime
+}
+repositories {
+    // Use jcenter for resolving your dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    jcenter()
+}
+
+dependencies {
+    integrationTestImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '2.23.0'
+    
+}
+
+task integrationTest(type: Test) {
+    description = "Run integration tests (located in src/IntegrationTest/...)."
+    testClassesDir = project.sourceSets.integrationTest.output.classesDir
+    classpath = project.sourceSets.integrationTest.runtimeClasspath
+}
+
+jar {
+    manifest {
+        attributes "Main-Class": "au.com.reecetech.app.AddressRegistryApp"
+    }
+ 
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
